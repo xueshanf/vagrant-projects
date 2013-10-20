@@ -26,9 +26,9 @@
 
 1. Create project directory, initialize vagrant configuration file
 
-     mkdir ~/projects/<project-name>
-     cd ~/projects/<project-name>
-     vagrant init
+        mkdir ~/projects/<project-name>
+        cd ~/projects/<project-name>
+        vagrant init
 
     FixMe: Only precise32 works on my Debian wheezy 64 bit host.
 
