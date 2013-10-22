@@ -34,6 +34,9 @@
 
         # Every Vagrant virtual environment requires a box to build off of.
         config.vm.box = "precise32"
+        
+1. Start up the vbox
+
         vagrant up
 
     FixMe: Only precise32 works on my Debian wheezy 64 bit host.
@@ -45,12 +48,16 @@
         mkdir ~/projects/office365
         cd ~/projects/office365
       	vagrant init
+      	
 1. Edit the *Vagrantfile* under the project directory to use the Window Server box 
 
-		Vagrant.configure("2") do |config|
-  			config.vm.box = "win2k8r2"
-			vb.gui = true
-		end
+	    Vagrant.configure("2") do |config|
+  		    config.vm.box = "win2k8r2"
+		    vb.gui = true
+	    end
+	
+1. Start the vobx
+
         vagrant up
 
 1.  [Install Required Software](http://technet.microsoft.com/en-us/library/jj151815.aspx)
