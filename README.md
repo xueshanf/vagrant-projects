@@ -29,6 +29,12 @@
         mkdir ~/projects/<project-name>
         cd ~/projects/<project-name>
         vagrant init
+        
+1. Edit the *Vagrantfile* under the project directory to use the precise32 box 
+
+        # Every Vagrant virtual environment requires a box to build off of.
+        config.vm.box = "precise32"
+        vagrant up
 
     FixMe: Only precise32 works on my Debian wheezy 64 bit host.
 
