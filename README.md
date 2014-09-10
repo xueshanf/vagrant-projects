@@ -1,7 +1,7 @@
 ### Prerequisite 
 
 1. Install [Oracle's virtual box](https://www.virtualbox.org/wiki/Downloads) for the host
-1. Install latest [Vagrant software](http://downloads.vagrantup.com/)
+1. Install latest [Vagrant software](https://www.vagrantup.com/downloads.html/)
 1. Install Vagrant [Vagrant box images](http://www.vagrantbox.es/)
 
 ### Add base images (precise32, previse64, Windows 2008 Server R2 image)
